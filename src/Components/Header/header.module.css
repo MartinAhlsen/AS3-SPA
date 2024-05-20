@@ -1,0 +1,12 @@
+.title {
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    padding-top: 16px;
+}
+
+@media screen and (min-width: 769px) {
+    .title {
+        text-align: unset;
+    }
+}

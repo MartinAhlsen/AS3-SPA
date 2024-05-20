@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./button.module.css";
 
 let i = 1;
 
@@ -8,7 +9,7 @@ const Button = ({ name, setPage, page }) => {
   };
 
   return (
-    <div className="nav-item" onClick={handleClick}>
+    <div className={styles.navItem} onClick={handleClick}>
       <p>{name}</p>
     </div>
   );

@@ -1,11 +1,12 @@
 import React from "react";
 import Nav from "../Nav";
+import styles from "./header.module.css";
 
 const Header = ({ setPage, page }) => {
   return (
     <>
       <header>
-        <h1>Baking with Vader</h1>
+        <span className={styles.title}>Baking with Vader</span>
         <Nav setPage={setPage} page={page} />
       </header>
     </>

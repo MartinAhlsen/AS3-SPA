@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Header from "./Components/Header";
-import Footer from "./Components/footer";
+import Footer from "./Components/Footer";
 import Main from "./Components/MainContent";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Header setPage={setPage} page={page} />
+      <Header setPage={setPage} />
       <Main setPage={setPage} page={page} />
       <Footer />
     </>

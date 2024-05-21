@@ -1,12 +1,15 @@
-.title {
-    font-size: 3rem;
-    text-align: center;
-    display: block;
+.header {
+    font-family: "StarWars", sans-serif;
+    color: #FFE81F;
+    background-color: black;
     padding-top: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 769px) {
-    .title {
-        text-align: unset;
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

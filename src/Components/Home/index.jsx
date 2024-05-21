@@ -1,8 +1,12 @@
 import React from "react";
+import Heading from "../Heading";
+import styles from "./home.module.css";
 
 const Home = () => {
+  const title = "Welcome to the Home of the Finest Baker in the Galaxy";
   return (
-    <>
+    <div className={styles.wrapper}>
+      <Heading title={title} />
       <p>
         Darth Vader, the formidable Sith Lord known for his dark powers and
         imposing presence, has a surprising hobby: baking. In the quiet solitude
@@ -17,7 +21,7 @@ const Home = () => {
         also masters the delicate balance of flavors, proving that even the
         darkest of souls can find peace in the simple joy of baking.
       </p>
-    </>
+    </div>
   );
 };
 

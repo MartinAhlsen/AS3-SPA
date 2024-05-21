@@ -1,5 +1,11 @@
+.navItem>p {
+    text-wrap: nowrap;
+}
+
 @media screen and (min-width: 769px) {
     .navItem {
         padding: 0 8px;
+        display: flex;
+        align-items: center;
     }
 }

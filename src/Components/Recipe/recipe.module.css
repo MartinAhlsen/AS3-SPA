@@ -1,0 +1,26 @@
+.separator {
+    color: grey;
+    width: 80%;
+}
+
+.recipeContainer {
+    margin-bottom: 16px;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 769px) {
+    .recipeContainer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .text {
+        flex-basis: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

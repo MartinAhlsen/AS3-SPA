@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "../Heading";
 import styles from "./aboutMe.module.css";
+import me from "../../assets/images/me.jpg";
 
 const AboutMe = () => {
   const title = "Darth Vader the Enigmatic Baker";
@@ -8,11 +9,7 @@ const AboutMe = () => {
     <div className={styles.wrapper}>
       <Heading title={title} />
       <div className={styles.nonTitleWrapper}>
-        <img
-          className={styles.image}
-          src="../assets/images/me.jpg"
-          alt="An image of me"
-        />
+        <img className={styles.image} src={me} alt="An image of me" />
         <div className={styles.text}>
           <p>
             Greetings, I am Darth Vader, a name that resonates across the galaxy

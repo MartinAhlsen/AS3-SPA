@@ -10,7 +10,7 @@ const AboutMe = () => {
       <div className={styles.nonTitleWrapper}>
         <img
           className={styles.image}
-          src="src/assets/images/me.jpg"
+          src="../assets/images/me.jpg"
           alt="An image of me"
         />
         <div className={styles.text}>

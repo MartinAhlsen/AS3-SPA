@@ -46,7 +46,7 @@ const jediMindTrickSmoothie = {
 };
 
 const hothIceCreamSundae = {
-  name: "Hoth Ice Cream Sundae",
+  name: "Hoth ice Cream Sundae",
   description: "A frosty treat inspired by the icy planet of Hoth.",
   ingredients: [
     "3 scoops Hoth ice cream (vanilla or mint)",

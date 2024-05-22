@@ -7,6 +7,7 @@ body {
     margin: 0;
     display: flex;
     color: #FFE81F;
+    font-family: "News";
 }
 
 #root {
@@ -19,6 +20,13 @@ body {
     font-family: 'StarWars';
     src: local("StarWars"), url("./assets/fonts/StarWars.ttf") format("truetype");
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'News';
+    src: url("./assets/fonts/NewsGothicBold.ttf") format("truetype");
+    font-weight: bold;
     font-style: normal;
 }
 
